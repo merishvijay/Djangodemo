@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function change(){
+        //document.getElementById('p').innerHTML="<h1>My another heading</h1>";
+        //document.getElementById('p').innerText="My another heading";
+        document.getElementById('i').src="download(1).jpg";
+        }
+        function change1(){
+        document.getElementById('h1').style.color="red";
+        document.body.style.background="yellow";
+        }
+    </script>
+</head>
+<body>
+<!--<h1 id="h">My Heading</h1>-->
+<!--<p id="p"></p>-->
+<!--<input type="button" onclick="change()" value="change">-->
+
+<h1 id="h1">My Page</h1>
+<img id="i" src="download.jpg" height="200px" width="300px">
+
+<button onclick="change()">CHANGEATTRIBUTE</button>
+<button onclick="change1()">CHANGESTYLE</button>
+</body>
+</html>
